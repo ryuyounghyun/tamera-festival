@@ -1,6 +1,6 @@
 import { Link } from 'react-router-dom';
 import { FileText, DollarSign, Calendar, AlertTriangle } from 'lucide-react';
-import { disciplines, getDepthDisciplines, getIndoorDisciplines } from '../data/disciplines';
+import { getDepthDisciplines, getIndoorDisciplines } from '../data/disciplines';
 import { REGISTRATION_FEES } from '../data/competitions';
 import { formatCurrency } from '../lib/utils';
 

@@ -41,7 +41,7 @@ const CountdownTimer = ({ targetDate, title = "대회까지 남은 시간" }: Co
     <div className="text-center py-8">
       <h2 className="text-2xl font-bold text-gray-800 mb-6">{title}</h2>
       <div className="flex justify-center items-center space-x-4 sm:space-x-8">
-        {timeUnits.map((unit, index) => (
+        {timeUnits.map((unit) => (
           <div key={unit.label} className="flex flex-col items-center">
             <div className="bg-white shadow-lg rounded-lg p-3 sm:p-6 min-w-[60px] sm:min-w-[80px]">
               <div className="text-2xl sm:text-4xl font-bold text-ocean-600">
